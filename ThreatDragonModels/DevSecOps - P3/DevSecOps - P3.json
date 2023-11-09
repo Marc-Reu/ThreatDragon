@@ -1504,37 +1504,6 @@
               "isPublicNetwork": false,
               "threats": []
             }
-          },
-          {
-            "position": {
-              "x": -40,
-              "y": -800
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "id": "462516be-e045-4492-b7e8-71d0e027f4e6",
-            "zIndex": 24,
-            "data": {
-              "type": "tm.Process",
-              "name": "Process",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
-            }
           }
         ]
       }
