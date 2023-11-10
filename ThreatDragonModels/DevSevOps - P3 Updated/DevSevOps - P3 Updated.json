@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 600,
-              "y": -769.9999999999976
+              "x": 610,
+              "y": -770.0000000000005
             },
             "size": {
-              "width": 1380,
-              "height": 660
+              "width": 530,
+              "height": 420
             },
             "shape": "trust-boundary-box",
             "attrs": {
@@ -34,6 +34,95 @@
             },
             "zIndex": -1,
             "id": "51334274-5c34-4a08-b9bd-d431d5335829",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1410,
+              "y": -880
+            },
+            "size": {
+              "width": 520,
+              "height": 360
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": ""
+              }
+            },
+            "zIndex": -1,
+            "id": "997143f7-e0bc-4026-9f68-6f129d54b6c0",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Externer Service für\nden Versand des OTT",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 838,
+              "y": -279.99999999999966
+            },
+            "size": {
+              "width": 500,
+              "height": 340
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": ""
+              }
+            },
+            "zIndex": -1,
+            "id": "7f6aa169-cee8-4776-99ee-c382e5a19f7e",
+            "data": {
+              "type": "tm.Store",
+              "name": "Telefonnummer-DB",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1524,
+              "y": -269.99999999999807
+            },
+            "size": {
+              "width": 520,
+              "height": 620
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": ""
+              }
+            },
+            "zIndex": -1,
+            "id": "a28404da-a2f7-42ea-b10e-c56fbbbb49d0",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -283,7 +372,7 @@
             },
             "id": "3e7f327a-4a86-4b7a-8392-26772544c414",
             "labels": [
-              "Log(Login,OTT,Appid)"
+              "Log(Login,OTT,Phone Number"
             ],
             "source": {
               "cell": "42ade3f3-dade-4d01-9bd3-b07b44e86144"
@@ -391,8 +480,264 @@
           },
           {
             "position": {
-              "x": 475.5,
-              "y": -169.9999999999976
+              "x": 1440,
+              "y": -710
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Telefonnummer-\nAPI-Gateway"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 12,
+            "id": "cfff8729-32b0-470e-ada8-69acaa0135f7",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isTrustBoundary": true
+            }
+          },
+          {
+            "position": {
+              "x": 1630,
+              "y": 160
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Other Mobile\nPhone OTT\nService"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 13,
+            "id": "e53cf621-8990-4f84-ac72-144549dc2ab4",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isTrustBoundary": true
+            }
+          },
+          {
+            "position": {
+              "x": 1694,
+              "y": -710
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Telefon-Routing-\nInterface"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 14,
+            "id": "1833be45-be6d-49a3-9b27-8ceab0f37a6e",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Routing-\nInformation-DB",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "isALog": false,
+              "storesCredentials": false,
+              "isSigned": false
+            }
+          },
+          {
+            "position": {
+              "x": 1610,
+              "y": -850
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Routing-\nInformation-DB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 15,
+            "id": "68a78589-125f-44e2-9d92-5b2a3dfaebb3",
+            "data": {
+              "type": "tm.Process",
+              "name": "Telefonnummer-\nAPI-Gateway",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isPublicNetwork": false,
+              "privilegeLevel": ""
+            }
+          },
+          {
+            "position": {
+              "x": 1122,
+              "y": -174.99999999999966
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Kundentelefon-\nanbieter"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 16,
+            "id": "e68be847-5b7a-4174-b4ec-d12f30011306",
+            "data": {
+              "type": "tm.Process",
+              "name": "Google Voice",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 901,
+              "y": -140
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Telefonnummer-DB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 17,
+            "id": "fcbc97c7-175a-4680-838a-c75491b062cd",
+            "data": {
+              "type": "tm.Process",
+              "name": "Kundentelefon-\nanbieter",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": [],
+              "privilegeLevel": ""
+            }
+          },
+          {
+            "position": {
+              "x": 726,
+              "y": -235
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Telefonanbieter"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "zIndex": 18,
+            "id": "c62086cf-6b33-41f8-bc40-8b3682d39976",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "hasOpenThreats": false,
+              "description": "",
+              "isTrustBoundary": true
+            }
+          },
+          {
+            "position": {
+              "x": 535.5,
+              "y": -350.00000000000045
             },
             "size": {
               "width": 112.5,
@@ -411,6 +756,165 @@
               "type": "tm.Text",
               "name": "Firma Allsecure",
               "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 720,
+              "y": -700
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "353130ad-3ae3-4c3c-b579-293c90070850",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Text",
+              "name": "Externer Service für\nTelefonnummerauflösung(Telco)",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1852,
+              "y": -960
+            },
+            "size": {
+              "width": 250,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Externer Service für\nTelefonnummerauflösung(Telco)"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "zIndex": 20,
+            "id": "4dc9e25e-1bbb-44cc-b49d-74efb52a29f8",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Telefon-Routing-\nInterface",
+              "hasOpenThreats": false,
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
+            }
+          },
+          {
+            "position": {
+              "x": 1810,
+              "y": -24.999999999998067
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "iMessage"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 21,
+            "id": "1ae5ec63-26c1-46f2-b280-72e1b3bd1255",
+            "data": {
+              "type": "tm.Process",
+              "name": "Other Mobile\nPhone OTT\nService",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1630,
+              "y": -235
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Google Voice"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 22,
+            "id": "b5baa9a4-d07a-4410-ba09-8ca6d4aab296",
+            "data": {
+              "type": "tm.Process",
+              "name": "iMessage",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1930,
+              "y": -339.99999999999966
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Externer Service für\nden Versand des OTT"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "zIndex": 23,
+            "id": "5d836df8-017e-424d-8268-9df641022e9d",
+            "data": {
+              "type": "tm.Text",
+              "name": "Telefonanbieter",
+              "hasOpenThreats": false,
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "threats": []
             }
           }
         ]
