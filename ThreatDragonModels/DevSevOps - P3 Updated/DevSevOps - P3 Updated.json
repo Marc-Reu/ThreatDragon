@@ -1302,6 +1302,166 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "b145785c-0957-4f78-bf40-a5cf78ffa76d",
+            "source": {
+              "cell": "74be2a4d-36b9-4998-9ad6-34c4307e15b8"
+            },
+            "target": {
+              "x": 1655,
+              "y": -539.9999999999998
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "3fab1510-c8be-4eb0-b395-2cb154a44723",
+            "source": {
+              "cell": "74be2a4d-36b9-4998-9ad6-34c4307e15b8"
+            },
+            "target": {
+              "x": 1655,
+              "y": -539.9999999999998
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9076cd13-7d29-4250-ba94-8c02973620dd",
+            "source": {
+              "cell": "74be2a4d-36b9-4998-9ad6-34c4307e15b8"
+            },
+            "target": {
+              "x": 1655,
+              "y": -539.9999999999998
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "4e0d30c3-728d-4d82-a646-bf213daffcc2",
+            "source": {
+              "cell": "74be2a4d-36b9-4998-9ad6-34c4307e15b8"
+            },
+            "target": {
+              "x": 1655,
+              "y": -539.9999999999998
+            }
+          },
+          {
             "position": {
               "x": 838.5,
               "y": -710
@@ -1659,7 +1819,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "description": "Wenn der OTT verfälscht wird, funktioniert das ganze einlog system nicht mehr",
+                  "description": "Wenn der OTT verfälscht wird, funktioniert das ganze einlog system nicht mehr\n\nCAPEC ID 263\nMITRE ID T0040",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
@@ -1672,7 +1832,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
-                  "description": "beim lesen der Prozesslogs können die telefonnummern mitgelesen werden, da unverschlüsselt",
+                  "description": "beim lesen der Prozesslogs können die telefonnummern mitgelesen werden, da unverschlüsselt\n\nCAPEC ID 507\nMITRE ID T1025",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
@@ -1816,7 +1976,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
-                  "description": "Pc des mitarbeiters ist an und nicht ausgeloggt und jemand greift drauf zu, kann den link öffnen und daten der Datenbank einsehen.",
+                  "description": "Pc des mitarbeiters ist an und nicht ausgeloggt und jemand greift drauf zu, kann den link öffnen und daten der Datenbank einsehen.\n\nCAPEC ID 37\nMITRE ID T1409",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
@@ -1868,7 +2028,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Elevation of privilege",
-                  "description": "Provide a description for this threat",
+                  "description": "Durch Zugriff auf das SIEM System, kann man weitere Systeme auslesen.\n\nCAPEC ID 180\nMITRE ID T0855",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
