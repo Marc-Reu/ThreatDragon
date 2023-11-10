@@ -225,7 +225,7 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "description": "Die Authentifizierungssession ist 1 Jahr lang gültig. Das heißt, ein angemeldeter Benutzer kann mit dem öffnen eines vorpreparierten links ungewollt Dinge ausführen, die ein Angreifer erzielen möchte.\n\nCAPEC ID 62\nMITRE ID T1187-Karton\n\nGegenmaßnahmen:\n\n",
+                  "description": "Die Authentifizierungssession ist 1 Jahr lang gültig. Das heißt, ein angemeldeter Benutzer kann mit dem öffnen eines vorpreparierten links ungewollt Dinge ausführen, die ein Angreifer erzielen möchte.\n\nCAPEC ID 62\nMITRE ID T1187-Karton\n\nGegenmaßnahmen:\n\nNicht mit Get Parametern arbeiten.\nSoftware müsste entsprechend angepasst werden -> POST\nScore 14\n\nMitre: D3-UA\nASVS: Level 2\nMASVS:",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
