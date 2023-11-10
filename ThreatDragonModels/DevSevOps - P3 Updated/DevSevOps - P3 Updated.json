@@ -303,7 +303,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "description": "eine nicht Regulierung der anfragenstellung führt zum absturz des systems",
+                  "description": "eine nicht Regulierung der anfragenstellung führt zum absturz des systems\n\nCAPEC ID 469\nMITRE ID T149\n\n",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
@@ -1347,24 +1347,11 @@
                   "status": "Open",
                   "severity": "Low",
                   "type": "Tampering",
-                  "description": "Manipulation der Datenbank, also anmelde daten können gezielt unauffällig gemacht werden",
+                  "description": "Manipulation der Datenbank, also anmelde daten können gezielt unauffällig gemacht werden\n\nCAPEC ID 81\nMITRE ID T1565",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
                   "number": 5,
-                  "score": ""
-                },
-                {
-                  "id": "cc2ffd4e-81dd-4129-95ab-7e0595e2aa5a",
-                  "title": "New generic threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "Generic",
-                  "new": true,
-                  "number": 0,
                   "score": ""
                 }
               ],
@@ -1777,7 +1764,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
-                  "description": "Beispiel md5 verschlüssung -> mittlerweile sind durch bruteforcing millionen von eingaben mit deren auswertung durchgeführt worden. Dafür gibt es öffentliche datenbanken mit dementsprechenden apis",
+                  "description": "Beispiel md4 verschlüssung -> mittlerweile sind durch bruteforcing millionen von eingaben mit deren auswertung durchgeführt worden. Dafür gibt es öffentliche datenbanken mit dementsprechenden apis\nCAPEC ID 20\nMITRE ID T1110",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
@@ -1901,6 +1888,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 18
+    "threatTop": 19
   }
 }
