@@ -139,8 +139,8 @@
                 "text": "AllSecure SIEM-System"
               }
             },
-            "id": "f3635d36-3fda-477d-b943-66e0a88b67a2",
             "zIndex": -1,
+            "id": "f3635d36-3fda-477d-b943-66e0a88b67a2",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "AllSecure SIEM-System",
@@ -225,12 +225,12 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "description": "Die Authentifizierungssession ist 1 Jahr lang gültig. Das heißt, ein angemeldeter Benutzer kann mit dem öffnen eines vorpreparierten links ungewollt Dinge ausführen, die ein Angreifer erzielen möchte.\n\nCAPEC ID 62\nMITRE ID T1187-Karton",
+                  "description": "Die Authentifizierungssession ist 1 Jahr lang gültig. Das heißt, ein angemeldeter Benutzer kann mit dem öffnen eines vorpreparierten links ungewollt Dinge ausführen, die ein Angreifer erzielen möchte.\n\nCAPEC ID 62\nMITRE ID T1187-Karton\n\nGegenmaßnahmen:\n\n",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
                   "number": 3,
-                  "score": ""
+                  "score": "38"
                 },
                 {
                   "id": "84855a39-7812-45f4-bcbd-e510ab7fd319",
@@ -243,7 +243,7 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 7,
-                  "score": ""
+                  "score": "50"
                 },
                 {
                   "id": "4aee09e2-5bee-48e5-ba71-d7afcf1529a7",
@@ -256,7 +256,7 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 15,
-                  "score": ""
+                  "score": "38"
                 }
               ],
               "isBidirectional": false,
@@ -308,7 +308,7 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 9,
-                  "score": ""
+                  "score": "35"
                 }
               ],
               "isBidirectional": false,
@@ -973,15 +973,15 @@
               "threats": []
             },
             "id": "ecad6b3d-57b5-4a7e-952c-dc54d720bd83",
+            "labels": [
+              "Auth challenge verschlüsselt"
+            ],
             "source": {
               "cell": "39efc30d-84f8-4566-a0f1-c8d8724982d1"
             },
             "target": {
               "cell": "42ade3f3-dade-4d01-9bd3-b07b44e86144"
             },
-            "labels": [
-              "Auth challenge verschlüsselt"
-            ],
             "vertices": [
               {
                 "x": 860,
@@ -1050,15 +1050,15 @@
               "threats": []
             },
             "id": "dbb6d11e-0f9e-4c93-85e4-6b0b0ff67ace",
+            "labels": [
+              "Monatlicher Report"
+            ],
             "source": {
               "cell": "1e1e09be-bb38-4319-a4bc-941363a0e312"
             },
             "target": {
               "cell": "e833cf23-21f9-4d4d-a001-bcca08c6c2a1"
             },
-            "labels": [
-              "Monatlicher Report"
-            ],
             "vertices": [
               {
                 "x": 825,
@@ -1098,6 +1098,9 @@
               "threats": []
             },
             "id": "8e6cd618-a2c0-4588-a747-8bb3dc6b8d55",
+            "labels": [
+              "Signierter Monatlicher Report"
+            ],
             "source": {
               "cell": "e833cf23-21f9-4d4d-a001-bcca08c6c2a1"
             },
@@ -1110,9 +1113,6 @@
                 "x": 960,
                 "y": -910
               }
-            ],
-            "labels": [
-              "Signierter Monatlicher Report"
             ]
           },
           {
@@ -1147,15 +1147,15 @@
               "threats": []
             },
             "id": "0942593a-7c17-484d-a1e4-656b61a68475",
+            "labels": [
+              "Überwachung des Dienstes"
+            ],
             "source": {
               "cell": "74be2a4d-36b9-4998-9ad6-34c4307e15b8"
             },
             "target": {
               "cell": "42ade3f3-dade-4d01-9bd3-b07b44e86144"
             },
-            "labels": [
-              "Überwachung des Dienstes"
-            ],
             "vertices": [
               {
                 "x": 1330,
@@ -1195,15 +1195,15 @@
               "threats": []
             },
             "id": "5b8060e3-7791-4227-ba5c-d48af4eca70c",
+            "labels": [
+              "Überwachung des Dienstes"
+            ],
             "source": {
               "cell": "74be2a4d-36b9-4998-9ad6-34c4307e15b8"
             },
             "target": {
               "cell": "b5baa9a4-d07a-4410-ba09-8ca6d4aab296"
-            },
-            "labels": [
-              "Überwachung des Dienstes"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1290,16 +1290,16 @@
               "threats": []
             },
             "id": "852f4ad4-4559-4567-ae07-0ad34eacaf8e",
+            "labels": [
+              "Signierter wöchentlicher Bericht"
+            ],
             "source": {
               "cell": "e833cf23-21f9-4d4d-a001-bcca08c6c2a1"
             },
             "target": {
               "x": 1000,
               "y": -1010
-            },
-            "labels": [
-              "Signierter wöchentlicher Bericht"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1512,7 +1512,7 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 5,
-                  "score": ""
+                  "score": "23"
                 }
               ],
               "isBidirectional": false,
@@ -1824,7 +1824,7 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 12,
-                  "score": ""
+                  "score": "16"
                 },
                 {
                   "id": "034d656b-077a-4ce1-a7be-a50143b4be14",
@@ -1837,7 +1837,7 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 16,
-                  "score": ""
+                  "score": "14"
                 }
               ]
             }
@@ -1895,6 +1895,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "id": "39efc30d-84f8-4566-a0f1-c8d8724982d1",
             "data": {
               "type": "tm.Flow",
@@ -1911,12 +1912,12 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Tampering",
-                  "description": "Mit einer veränderung der Verschlüsslungsmethodig kann eine vom eindringling definierte verschlüsslung gesetzt werden\n\nCAPEC ID 620\nMITRE ID T1486",
+                  "description": "Mit einer veränderung der Verschlüsslungsmethodik kann eine vom eindringling definierte verschlüsslung gesetzt werden\n\nCAPEC ID 620\nMITRE ID T1486",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
                   "number": 11,
-                  "score": ""
+                  "score": "20"
                 },
                 {
                   "id": "15e43b16-b1ef-4b0f-818c-47209162e3f4",
@@ -1929,15 +1930,14 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 18,
-                  "score": ""
+                  "score": "20"
                 }
               ],
               "isBidirectional": false,
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false
-            },
-            "zIndex": 24
+            }
           },
           {
             "position": {
@@ -1960,6 +1960,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "id": "e833cf23-21f9-4d4d-a001-bcca08c6c2a1",
             "data": {
               "type": "tm.Flow",
@@ -1981,15 +1982,14 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 8,
-                  "score": ""
+                  "score": "26"
                 }
               ],
               "isBidirectional": false,
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false
-            },
-            "zIndex": 25
+            }
           },
           {
             "position": {
@@ -2012,6 +2012,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "id": "74be2a4d-36b9-4998-9ad6-34c4307e15b8",
             "data": {
               "type": "tm.Flow",
@@ -2024,7 +2025,7 @@
               "threats": [
                 {
                   "id": "cf049206-e823-4932-864f-61a1761232ef",
-                  "title": "Mit zufriff über das SIEM system hat man automatisch höhere Rechte",
+                  "title": "Mit zugriff über das SIEM system hat man automatisch höhere Rechte",
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Elevation of privilege",
@@ -2033,15 +2034,14 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 10,
-                  "score": ""
+                  "score": "23"
                 }
               ],
               "isBidirectional": false,
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false
-            },
-            "zIndex": 26
+            }
           }
         ]
       }
